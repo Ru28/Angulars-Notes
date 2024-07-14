@@ -5,6 +5,7 @@ import { StructureDirectivesComponent } from './components/structure-directives/
 import { ControlFlowComponent } from './components/control-flow/control-flow.component';
 import { BuiltInPipeComponent } from './components/built-in-pipe/built-in-pipe.component';
 import { DependancyInjectionComponent } from './components/dependancy-injection/dependancy-injection.component';
+import { JsonAsyncpipeComponent } from './components/json-asyncpipe/json-asyncpipe.component';
 
 export const routes: Routes = [
     {path:'', component: UserProfileComponent},
@@ -13,4 +14,5 @@ export const routes: Routes = [
     {path:'control',component: ControlFlowComponent},
     {path:'pipe',component: BuiltInPipeComponent},
     {path:'depinje',component: DependancyInjectionComponent},
+    {path:'jsonasyncpipe',component: JsonAsyncpipeComponent},
 ];
