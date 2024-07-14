@@ -4,6 +4,7 @@ import { UserRepoComponent } from './components/user-repo/user-repo.component';
 import { StructureDirectivesComponent } from './components/structure-directives/structure-directives.component';
 import { ControlFlowComponent } from './components/control-flow/control-flow.component';
 import { BuiltInPipeComponent } from './components/built-in-pipe/built-in-pipe.component';
+import { DependancyInjectionComponent } from './components/dependancy-injection/dependancy-injection.component';
 
 export const routes: Routes = [
     {path:'', component: UserProfileComponent},
@@ -11,4 +12,5 @@ export const routes: Routes = [
     {path:'dir',component: StructureDirectivesComponent},
     {path:'control',component: ControlFlowComponent},
     {path:'pipe',component: BuiltInPipeComponent},
+    {path:'depinje',component: DependancyInjectionComponent},
 ];
