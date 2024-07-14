@@ -1,0 +1,21 @@
+
+<div *ngIf="isLoggedIn">Welcome, {{username}}</div>
+<div *ngIf="!isLoggedIn">Please login</div>
+
+<div *ngIf="isLoggedIn || check">logged In</div>
+
+<div *ngIf="isLoggedIn; else loggedOut">Welcome back, {{ username }}</div>
+<ng-template #loggedOut>ng-template works</ng-template>
+
+<ul>
+    <li *ngFor="let name of names; let i=index">
+       {{i}} {{name}}
+    </li>
+</ul>
+
+<div [ngSwitch]="grade">
+    <p *ngSwitchCase="'A'">Excellent</p>
+    <p *ngSwitchCase="'B'">Good</p>
+    <p *ngSwitchCase="'C'">Bad</p>
+    <p *ngSwitchDefault>Unknown</p>
+</div>
