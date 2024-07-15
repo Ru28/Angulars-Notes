@@ -6,6 +6,7 @@ import { ControlFlowComponent } from './components/control-flow/control-flow.com
 import { BuiltInPipeComponent } from './components/built-in-pipe/built-in-pipe.component';
 import { DependancyInjectionComponent } from './components/dependancy-injection/dependancy-injection.component';
 import { JsonAsyncpipeComponent } from './components/json-asyncpipe/json-asyncpipe.component';
+import { SignalComponent } from './components/signal/signal.component';
 
 export const routes: Routes = [
     {path:'', component: UserProfileComponent},
@@ -15,4 +16,5 @@ export const routes: Routes = [
     {path:'pipe',component: BuiltInPipeComponent},
     {path:'depinje',component: DependancyInjectionComponent},
     {path:'jsonasyncpipe',component: JsonAsyncpipeComponent},
+    {path:'signal',component: SignalComponent},
 ];
