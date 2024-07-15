@@ -7,6 +7,7 @@ import { BuiltInPipeComponent } from './components/built-in-pipe/built-in-pipe.c
 import { DependancyInjectionComponent } from './components/dependancy-injection/dependancy-injection.component';
 import { JsonAsyncpipeComponent } from './components/json-asyncpipe/json-asyncpipe.component';
 import { SignalComponent } from './components/signal/signal.component';
+import { ObservableComponent } from './components/observable/observable.component';
 
 export const routes: Routes = [
     {path:'', component: UserProfileComponent},
@@ -17,4 +18,5 @@ export const routes: Routes = [
     {path:'depinje',component: DependancyInjectionComponent},
     {path:'jsonasyncpipe',component: JsonAsyncpipeComponent},
     {path:'signal',component: SignalComponent},
+    {path:'observable',component: ObservableComponent},
 ];
