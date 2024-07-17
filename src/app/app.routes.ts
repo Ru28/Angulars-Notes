@@ -10,6 +10,7 @@ import { SignalComponent } from './components/signal/signal.component';
 import { ObservableComponent } from './components/observable/observable.component';
 import { TemplatedrivenFormComponent } from './components/templatedriven-form/templatedriven-form.component';
 import { ReactiveFormComponent } from './components/reactive-form/reactive-form.component';
+import { TaskComponent } from './components/task/task.component';
 
 export const routes: Routes = [
     {path:'', component: UserProfileComponent},
@@ -22,5 +23,6 @@ export const routes: Routes = [
     {path:'signal',component: SignalComponent},
     {path:'observable',component: ObservableComponent},
     {path:'template-form',component: TemplatedrivenFormComponent},
-    {path:'reactive-form',component: ReactiveFormComponent}
+    {path:'reactive-form',component: ReactiveFormComponent},
+    {path:'task',component: TaskComponent}
 ];
